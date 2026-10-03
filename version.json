@@ -1,18 +1,14 @@
 {
-  "version": "1.2.10",
-  "versionCode": 1002010,
-  "buildTime": "2026-10-03 10:34",
-  "title": "MingTV v1.2.10 离线播放与后台下载修复",
+  "version": "1.2.11",
+  "versionCode": 1002011,
+  "buildTime": "2026-10-03 11:36",
+  "title": "MingTV v1.2.11 电视端适配与频道源更新",
   "releaseNotes": [
-    "修复离线 HLS 播放：保留真实分片、时长、AES-128 密钥、fMP4 初始化片段和字节范围，不再拼接整集 TS 或跳过失败分片",
-    "Android 新增后台下载前台服务与通知，支持多任务排队、进度展示、取消和失败重试；已完成分片在任务恢复时复用",
-    "离线资源保存至应用私有磁盘，本地播放器支持 Range 读取与拖动播放；首页离线库展示后台任务",
-    "修复离线数据库事务完成判定，避免写入失败后仍显示下载成功；支持导出 MP4 或完整 HLS ZIP 包",
-    "保持原包名和历史签名，支持覆盖升级；旧版已经丢失密钥或分片的视频需重新下载"
+    "电视端大屏布局与遥控器焦点导航优化，方便使用方向键浏览和选择内容",
+    "更新电影、高清、运动健身及音乐剧场等多类直播源，并整理中国地方频道与国际频道分类",
+    "扩展常规影视资源站覆盖，更新失效影视与直播源配置",
+    "保持 Android 包名 com.libretv.app 和历史签名证书，versionCode 升至 1002011，可从 v1.2.10 覆盖升级"
   ],
-  "downloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.10/mingtv-mobile.apk",
-  "mobileDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.10/mingtv-mobile.apk",
-  "sha256": "3459f404a7985fcd19fea080f644d707c659a227de98d9c2429666fa37e3017e",
-  "apkSize": 55746370,
-  "tvDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.10/mingtv-tv.apk"
+  "downloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.11/mingtv-mobile.apk",
+  "mobileDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.11/mingtv-mobile.apk"
 }
