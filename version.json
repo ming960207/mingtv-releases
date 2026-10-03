@@ -1,14 +1,13 @@
 {
-  "version": "1.2.11",
-  "versionCode": 1002011,
-  "buildTime": "2026-10-03 11:36",
-  "title": "MingTV v1.2.11 电视端适配与频道源更新",
+  "version": "1.2.12",
+  "versionCode": 1002012,
+  "buildTime": "2026-10-03 11:48",
+  "title": "MingTV v1.2.12 修复电视遥控确认",
   "releaseNotes": [
-    "电视端大屏布局与遥控器焦点导航优化，方便使用方向键浏览和选择内容",
-    "更新电影、高清、运动健身及音乐剧场等多类直播源，并整理中国地方频道与国际频道分类",
-    "扩展常规影视资源站覆盖，更新失效影视与直播源配置",
-    "保持 Android 包名 com.libretv.app 和历史签名证书，versionCode 升至 1002011，可从 v1.2.10 覆盖升级"
+    "修复 Android TV 遥控器 DPAD_CENTER / OK 确认键不能激活当前焦点按钮、链接与频道卡片的问题",
+    "确认键改为显式触发当前可操作元素；文本输入框仍保留原有 Enter 提交行为",
+    "保持应用包名 com.libretv.app 和历史签名证书，versionCode 升至 1002012，可从 v1.2.11 直接覆盖升级"
   ],
-  "downloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.11/mingtv-mobile.apk",
-  "mobileDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.11/mingtv-mobile.apk"
+  "downloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.12/mingtv-mobile.apk",
+  "mobileDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.12/mingtv-mobile.apk"
 }
