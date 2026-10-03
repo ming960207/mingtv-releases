@@ -1,18 +1,19 @@
 {
-  "version": "1.2.16",
-  "versionCode": 1002016,
-  "buildTime": "2026-10-03 20:57",
-  "title": "MingTV v1.2.16 TV 导航与播放体验优化",
+  "version": "1.2.17",
+  "versionCode": 1002017,
+  "buildTime": "2026-10-03 21:50",
+  "title": "MingTV v1.2.17 离线识别修复与多集批量下载",
   "releaseNotes": [
-    "优化 TV 搜索卡片、海报比例、选集面板与遥控焦点布局",
-    "修复首次启动声明弹窗的遥控确认和焦点限制，完善方向、确认、返回与翻页按键映射",
-    "统一播放器快捷键与遥控事件，修复重复快进、暂停和音量操作，弹窗内按键不误操作视频",
-    "当前播放集数自动定位；保留六分类150频道174线路、首页封面及离线下载修复",
-    "保持包名 com.libretv.app 与历史签名，versionCode 为1002016，支持覆盖升级"
+    "修复含 UTF-8 BOM 的 HLS 清单、压缩响应和含前置合法 box 的 MP4 识别",
+    "支持选择多集、全选与清空，每集通过清单和媒体分片预检后加入 Android 后台队列",
+    "单集失败不影响其他集，显示逐集失败原因，跳过重复地址，可停止后续检测",
+    "浏览器支持逐集保存并脱机播放；批量下载保持当前播放集数和来源",
+    "完善 TV 多选框方向导航与遥控确认；保持包名、历史签名和既有离线数据"
   ],
-  "downloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.16/mingtv-mobile.apk",
-  "mobileDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.16/mingtv-mobile.apk",
-  "tvDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.16/mingtv-tv.apk",
-  "sha256": "567d2fb1f121d1bd37a2bfbad5259cab1c5d58ee16338e0182a283fad4808b08",
-  "size": 56266562
+  "downloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.17/mingtv-mobile.apk",
+  "mobileDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.17/mingtv-mobile.apk",
+  "tvDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.17/mingtv-tv.apk",
+  "sha256": "2dc0620be109ece710356b0fdaa6363e2d277751ec863e79aac63edd023ee284",
+  "size": 56266562,
+  "tvSha256": "2dc0620be109ece710356b0fdaa6363e2d277751ec863e79aac63edd023ee284"
 }
