@@ -1,13 +1,19 @@
 {
-  "version": "1.2.12",
-  "versionCode": 1002012,
-  "buildTime": "2026-10-03 11:48",
-  "title": "MingTV v1.2.12 修复电视遥控确认",
+  "version": "1.2.13",
+  "versionCode": 1002013,
+  "buildTime": "2026-10-03 15:44",
+  "title": "MingTV v1.2.13 直播稳定性更新",
   "releaseNotes": [
-    "修复 Android TV 遥控器 DPAD_CENTER / OK 确认键不能激活当前焦点按钮、链接与频道卡片的问题",
-    "确认键改为显式触发当前可操作元素；文本输入框仍保留原有 Enter 提交行为",
-    "保持应用包名 com.libretv.app 和历史签名证书，versionCode 升至 1002012，可从 v1.2.11 直接覆盖升级"
+    "更新直播源健康检测与坏线路清理，优化直播首播、分阶段超时及中断后的恢复行为",
+    "新增室内健身频道，调整频道分类与显示名称，改善多来源频道合并",
+    "加固本地 HLS 代理，覆盖重定向、相对媒体资源、Range 请求及上游错误处理",
+    "手机与 Android TV 共用双 ARM 安装包，保留 TV 启动入口、遥控导航与确认键支持",
+    "保持包名 com.libretv.app 与历史签名证书，versionCode 升至 1002013，支持覆盖升级"
   ],
-  "downloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.12/mingtv-mobile.apk",
-  "mobileDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.12/mingtv-mobile.apk"
+  "downloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.13/mingtv-mobile.apk",
+  "mobileDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.13/mingtv-mobile.apk",
+  "tvDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.13/mingtv-tv.apk",
+  "sha256": "ea13e4412ef7de62bd7046c1799abb00cdc0ae1446480f7dc4865249df9ede50",
+  "size": 55803714,
+  "tvSha256": "ea13e4412ef7de62bd7046c1799abb00cdc0ae1446480f7dc4865249df9ede50"
 }
