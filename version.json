@@ -1,19 +1,18 @@
 {
-  "version": "1.2.13",
-  "versionCode": 1002013,
-  "buildTime": "2026-10-03 15:44",
-  "title": "MingTV v1.2.13 直播稳定性更新",
+  "version": "1.2.15",
+  "versionCode": 1002015,
+  "buildTime": "2026-10-03 20:18",
+  "title": "MingTV v1.2.15 六分类直播与下载修复",
   "releaseNotes": [
-    "更新直播源健康检测与坏线路清理，优化直播首播、分阶段超时及中断后的恢复行为",
-    "新增室内健身频道，调整频道分类与显示名称，改善多来源频道合并",
-    "加固本地 HLS 代理，覆盖重定向、相对媒体资源、Range 请求及上游错误处理",
-    "手机与 Android TV 共用双 ARM 安装包，保留 TV 启动入口、遥控导航与确认键支持",
-    "保持包名 com.libretv.app 与历史签名证书，versionCode 升至 1002013，支持覆盖升级"
+    "IPTV-Org 官方分类仅作候选，正式界面固定电影、室内运动、音乐、电视剧、综合娱乐、动漫，每类最多30个已验证频道",
+    "本次收录150个真实频道、174条线路，室内运动暂无通过严格筛选的频道，其余五类各30个",
+    "保留真实频道身份，合并播出版和备用线路，按稳定性、首屏、画质、国内可达性、身份和验证时间评分",
+    "修复 Android 离线下载中断续传、资源校验、清单重试和重定向处理；修复代理改写分片地址及浏览器传输完整性检查",
+    "修复首页 cover_url 封面字段和原生代理加载，保持原有包名和签名，versionCode为1002015"
   ],
-  "downloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.13/mingtv-mobile.apk",
-  "mobileDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.13/mingtv-mobile.apk",
-  "tvDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.13/mingtv-tv.apk",
-  "sha256": "ea13e4412ef7de62bd7046c1799abb00cdc0ae1446480f7dc4865249df9ede50",
-  "size": 55803714,
-  "tvSha256": "ea13e4412ef7de62bd7046c1799abb00cdc0ae1446480f7dc4865249df9ede50"
+  "downloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.15/mingtv-mobile.apk",
+  "mobileDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.15/mingtv-mobile.apk",
+  "tvDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.15/mingtv-tv.apk",
+  "sha256": "5a996913f131e5602d8d041c1b665eba4685476377843c339963269ebb868d37",
+  "size": 56254274
 }
