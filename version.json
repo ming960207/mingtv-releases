@@ -1,19 +1,17 @@
 {
-  "version": "1.2.18",
-  "versionCode": 1002018,
-  "buildTime": "2026-10-03 22:15",
-  "title": "MingTV v1.2.18 恢复全量央视与地方卫视直播源",
+  "version": "1.2.19",
+  "versionCode": 1002019,
+  "buildTime": "2026-10-06 01:08",
+  "title": "MingTV v1.2.19 移动端下载解析与自动换源修复",
   "releaseNotes": [
-    "全面恢复全量 480+ 央视、全国卫视、省市地方台及精选轮播与慢直播频道",
-    "修复直播频道与分类标签的 TV 模式方向键遥控器焦点导航与一键确认播放",
-    "多线路自动测速、主备线路智能故障转移与异常熔断机制无缝协同",
-    "保持包名 com.libretv.app 与历史签名证书完全一致，支持直接覆盖升级",
-    "保留完整离线下载、观看历史及既有用户配置"
+    "修复移动端点播下载：深度解析播放页，识别真实 MP4 与 HLS 地址",
+    "下载前校验 HLS 分片，当前线路失败时自动尝试其他来源的匹配剧集",
+    "沿用历史包名与签名，支持覆盖升级并保留用户数据"
   ],
-  "downloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.18/mingtv-mobile.apk",
-  "mobileDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.18/mingtv-mobile.apk",
-  "tvDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.18/mingtv-tv.apk",
-  "sha256": "ca85de4bacd1bc17b83308a2ed074125dccae1f72011806ae5c6d02177e98517",
-  "size": 56315714,
-  "tvSha256": "ca85de4bacd1bc17b83308a2ed074125dccae1f72011806ae5c6d02177e98517"
+  "downloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.19/mingtv-mobile.apk",
+  "mobileDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.19/mingtv-mobile.apk",
+  "tvDownloadUrl": "https://github.com/ming960207/mingtv-releases/releases/download/v1.2.19/mingtv-tv.apk",
+  "sha256": "15d87354acd79317b6f0e2db18a19b763d33e71dba29a8586a2fb0ec051617d4",
+  "tvSha256": "15d87354acd79317b6f0e2db18a19b763d33e71dba29a8586a2fb0ec051617d4",
+  "size": 56323906
 }
